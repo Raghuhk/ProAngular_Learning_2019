@@ -1,0 +1,33 @@
+{
+    "dependencies":{
+        "@angular/common":"",
+        "@angular/compiler":"",
+        "@angular/core":"",
+        "@angular/platform-browser":"",
+        "@angular/platform-browser-dynamic":"",
+        "@angular/upgrade": "",
+        "reflect-metadata":"",
+        "rxjs":"",
+        "zone.js":"",
+        "core-js":"",
+        "classlist.js":"",
+        "systemjs":"",
+        "bootstrap": "",
+        "jquery": "",
+        "popper.js": ""
+    },
+    "devDependencies": {
+        "lite-server": "",
+        "typescript":"",
+        "typings":"",
+        "concurrently": ""
+    },
+    "scripts": {
+        "start": "concurrently \"npm run tscwatch\" \"npm run lite\" ",
+        "tsc": "tsc",
+        "tscwatch": "tsc -w",
+        "lite": "lite-server",
+        "typings": "typings",
+        "postinstall": "typings install"
+    }
+}
